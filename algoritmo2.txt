@@ -5,9 +5,9 @@ ler unidade de temperatura
 TF = 0
 
 se unidade em celsius 
-  (TF – 32) = (TA/5)9
+  TF = TA * 1.8 + 32
 
 senão
-  TF = ((TA - 32)/9)5
+  TF = (TA - 32)/1.8
 
 escreva o resultado é *TF
