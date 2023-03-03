@@ -1,0 +1,12 @@
+entrada temperatura atual = TA
+//temperatura final
+TF = 0
+
+se TA em celsius 
+  (TF – 32) = (TA/5)9
+
+se TA em fahrenheit
+  TF = ((TA - 32)/9)5
+
+retornar TF
+
