@@ -1,12 +1,13 @@
-entrada temperatura atual = TA
+ler temperatura atual = TA
+ler unidade de temperatura
+
 //temperatura final
 TF = 0
 
-se TA em celsius 
+se unidade em celsius 
   (TF – 32) = (TA/5)9
 
-se TA em fahrenheit
+senão
   TF = ((TA - 32)/9)5
 
-retornar TF
-
+escreva o resultado é *TF
