@@ -1,12 +1,14 @@
 //um algoritmo que calcula a média de uma lista de números.
 
-entrada numeros
+ler numeros
+ler quantidade numeros
+iniciar contador = 0
 
 //calcular média
 soma = 0
 
-iniciar contador (c) que irá repetir o processo abaixo e que termina na quantidade de numeros existentes
-  soma = numero[c]
+enquanto contador (c) < quantidade de numeros 
+  soma = soma + numero[c]
   c = c + 1
 
 retornar soma
