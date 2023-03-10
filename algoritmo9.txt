@@ -1,0 +1,11 @@
+Algoritmo de cálculo de juros compostos: um algoritmo que calcula o 
+montante de dinheiro após um período de tempo com juros compostos.
+
+leia taxa_juros
+leia capital
+leia tempo
+
+para todos os valores entre 1 e tempo faça
+  capital = capital * taxa_juros
+escreva "o resultado é (capital)"
+
